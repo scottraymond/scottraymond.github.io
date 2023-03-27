@@ -1,0 +1,23 @@
+body {
+  margin-top: 25px;
+  background-color: powderblue;
+  background-image: url(background.jpg);
+  background-repeat: repeat;
+  background-size: 150px 150px;
+  color: white;
+  font-family: "Courier", Times, serif;
+  text-align: center;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+h1 {
+  font-size: 48px;
+  text-decoration-style: wavy;
+  text-shadow: 2px 2px black;
+}
+
+
+p {
+  font-size: 24px;
+  text-shadow: 1px 1px black;
+}
