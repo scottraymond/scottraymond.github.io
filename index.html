@@ -1,8 +1,16 @@
 <html>
 <head>
   <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <p>Do you like dogs?</p>
+    </div>
+    <button id="myBtn">YES</button>
+  </div>
 
 <h1>KEIKO IS TURNING 13 (Allegedly)</h1>
 
@@ -10,11 +18,22 @@
 <p>Join us Sunday April 16 at the backyard of <a href="https://goo.gl/maps/woSQgKJGZ4o8ox456" style="color:green;">Panze</a><a href="https://goo.gl/maps/woSQgKJGZ4o8ox456" style="color:white;">rotti</a> <a href="https://goo.gl/maps/woSQgKJGZ4o8ox456" style="color:red;">Bites</a> (weather permitting). Come and go as you please from 1pm-6pm to celebrate this dog.  </p>
 
 <p>Tao will also be celebrating her own birthday.</p>
-
-<audio autoplay controls loop>
+<img src="birthdaycake.gif" height="50%">
+<br>
+<audio id="myAudio" loop>
   <source src="birthday.mp3" type="audio/mp3">
 Your browser does not support the audio element.
 </audio>
-<img src="birthdaycake.gif" height="50%">
+
+<script>
+  var modal = document.getElementById("myModal");
+  var btn = document.getElementById("myBtn");
+  var x = document.getElementById("myAudio");
+  btn.onclick = function() {
+    modal.style.display = "none";
+    x.play();
+  }
+</script>
+
 </body>
 </html>
