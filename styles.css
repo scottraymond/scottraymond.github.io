@@ -53,9 +53,6 @@ body {
   padding: 5px;
 }
 
-.yes-or-yes{
-
-}
 
 h1 {
   font-size: 72px;
@@ -67,4 +64,60 @@ h1 {
 p {
   font-size: 24px;
   text-shadow: 2px 2px black;
+}
+
+.container{
+    max-width: 300px;
+    overflow: hidden;
+    position: relative;
+    left: 50%;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+/*Animation activated by keyframes*/
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    15%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(-100%);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    35%{
+        transform: translateX(-200%);
+    }
+    45%{
+        transform: translateX(-200%);
+    }
+    50%{
+        transform: translateX(-300%);
+    }
+    60%{
+        transform: translateX(-300%);
+    }
+    65%{
+        transform: translateX(-400%);
+    }
+    75%{
+        transform: translateX(-400%);
+    }
+    80%{
+        transform: translateX(-500%);
+    }
+    95%{
+        transform: translateX(-500%);
+    }
 }
