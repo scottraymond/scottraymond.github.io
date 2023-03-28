@@ -3,7 +3,7 @@ body {
   background-color: powderblue;
   background-image: url(background.jpg);
   background-repeat: repeat;
-  background-size: 150px 150px;
+  background-size: 75px 75px;
   color: white;
   font-family: "Courier", Times, serif;
   text-align: center;
@@ -23,20 +23,48 @@ body {
   height: 100%;
 }
 
+.mySlides {display: block;}
+
+
 .modal-content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   color: black;
   text-shadow: 0px 0px black;
+}
+
+.slideshow-container {
+  max-width: 300px;
+  position: relative;
+  margin: auto;
+}
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.yes-or-yes{
 
 }
 
 h1 {
   font-size: 48px;
   text-decoration-style: wavy;
-  text-shadow: 2px 2px black;
+  text-shadow: 3px 3px black;
 }
 
 
 p {
   font-size: 24px;
-  text-shadow: 1px 1px black;
+  text-shadow: 2px 2px black;
 }
