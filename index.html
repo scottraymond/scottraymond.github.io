@@ -5,7 +5,7 @@
 
 </head>
 <body>
-
+  <a id="top"></a>
   <div id="myModal" class="modal" style="background-color: black">
     <center>
          <h1>WHAT IS THE PASSWORD?</h1>
@@ -103,6 +103,7 @@ function protectpasscode() {
                      modal.style.display = "none";
                      document.body.style.overflow = "auto";
                      document.body.style.height = "auto";
+                     window.location.href = '#top'
                      x.play();
                   } else {
                      alert("Incorrect Passcode");
