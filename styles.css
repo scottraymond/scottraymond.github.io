@@ -3,22 +3,38 @@ body {
   background-color: powderblue;
   background-image: url(background.jpg);
   background-repeat: repeat;
-  background-size: 75px 75px;
+  background-size: 66px 66px;
   color: white;
   font-family: "Courier", Times, serif;
   text-align: center;
   word-wrap: break-word;
   font-weight: bold;
+  overflow: hidden;
+  font-size: 24px;
+  text-shadow: 2px 2px black;
+  
+}
+
+.modal-open {
+  overflow: hidden;
+  position: fixed;
+}
+
+.viewport-lg {
+    /* block scroll for desktop; */
+    /* will not jump to top; */
+    /* will not prevent scroll on mobile */
+    position: absolute; 
 }
 
 .modal{
-  background-color: white;
+  background-color: black;
   position: fixed;
   display: block;
   z-index: 1;
   top: 0;
   left: 0;
-  overflow: auto;
+  overflow: hidden;
   width: 100%;
   height: 100%;
 }
