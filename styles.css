@@ -10,7 +10,7 @@ body {
   word-wrap: break-word;
   font-weight: bold;
   overflow: hidden;
-  font-size: 24px;
+  font-size: 22px;
   text-shadow: 2px 2px black;
   
 }
@@ -71,14 +71,14 @@ body {
 
 
 h1 {
-  font-size: 72px;
+  font-size: 66px;
   text-decoration-style: wavy;
   text-shadow: 3px 3px black;
 }
 
 
 p {
-  font-size: 24px;
+  font-size: 22px;
   text-shadow: 2px 2px black;
 }
 
