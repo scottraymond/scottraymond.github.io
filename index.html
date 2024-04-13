@@ -8,98 +8,11 @@
 
   <div id="myModal" class="modal">
     <center>
-         <p style="color: white">Will you be voting in the 350 Butler Board Election?</p>
-         
-         <button id="myBtn" style="font-size: 24px">YES</button>
       </center>
   </div>
 
 
 
-
-<div class="banner"><hr><h1>SCOTT RAYMOND FOR 350 BUTLER BOARD</h1><hr></div>
-
-<h2>Hello Neighbors!</h2>
-
-<div class="image-txt-container" style="background-color: white">
-  <img src="portrait.jpg">
-  <div class="text">
-    <p>My name is Scott Raymond, I live in 3B, and I am running to be 1/3 of your Condo Board! By day, I am an engineering manager for a leading fintech firm, affording me the flexibility to work from home full time. By night, I play drums for a local death metal band whose music has been described as "grating" and "unpalatable."  As your fellow resident, I am deeply invested in the well-being and success of our community.  I have a passion for problem solving and expertise in devising efficient and elegant solutions, honed through years of navigating complex challenges and orchestrating seamless collaboration among multiple stakeholders. With a commitment to transparency and a drive to enact meaningful improvement, I am eager to contribute my skills and experience to serve our community effectively. Together, let's work towards a brighter future for 350 Butler.</p>
-  </div>
-</div>
-
-
-<h2>Platform</h2>
-
-<button type="button" class="collapsible">Accountability</button>
-<div class="content">
-  <p>I'm sure many of you have experienced seemingly endless maintenance issues since moving into our new homes, and were quite disappointed with the unsatisfactory response from the building management and construction teams. It's disheartening to see valuable time and effort invested in resolving these issues, some of which have persisted for months without being addressed. Clearly, there's a glaring lack of accountability that demands immediate attention. If entrusted with your vote, I am committed to implementing a comprehensive service ticketing system with clearly defined service-level agreements. This proactive measure will ensure that building issues receive the attention, visibility, and timely resolution they deserve.</p>
-</div>
-<button type="button" class="collapsible">Energy Savings</button>
-<div class="content">
-<p>Perhaps, like myself, you were taken aback receiving your first monthly energy bill for 350 Butler. What was promised as an energy-efficient and cost-saving new construction turned out to yield substantially higher utility costs compared to any crumbling decades-old apartment with a gas furnace. If elected, I will champion the exploration of installing solar panels on the east side of the building. This initiative holds the potential to significantly reduce our energy expenses while also securing additional tax abatements for the community. Though most importantly, such a move would not compromise the aesthetic appeal of our building. Given that the east side houses the exposed HVAC machinery, which is not particularly pleasing to the eye, the installation of solar panels would arguably be a visual improvement and increase property value.</p>
-</div>
-<button type="button" class="collapsible">A Better Gym</button>
-<div class="content">
-<p>An in-building gym is undeniably one of New York City's most esteemed luxuries, a cherished amenity that enhances the quality of life for residents. However, it's evident that our current gym setup falls short of its potential, lacking in both floor space optimization and a well-curated selection of equipment. An anonymous good samaritan has already taken it upon themselves to improve the layout, and we owe it to this mysterious and clearly brilliant do-gooder to follow in their example to improve our facility.  I would encourage the board to pursue the procurement of additional equipment so that we residents can be fully self-sufficient with our humble gym and rid ourselves of commercial gym memberships.</p>
-</div>
-
-
-<h2 style="font-size: 24px;">Thank you for your consideration and I hope to have your vote on or before April 24. I clearly have the time required for this position</h2>
-
-<audio id="myAudio" loop>
-  <source src="board.mp3" type="audio/mp3">
-Your browser does not support the audio element.
-</audio>
-
-<script>
-  var modal = document.getElementById("myModal");
-  var btn = document.getElementById("myBtn");
-  var btn2 = document.getElementById("myBtn2");
-  var x = document.getElementById("myAudio");
-  var coll = document.getElementsByClassName("collapsible");
-  var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    }
-  });
-}
-
-  btn.onclick = function() {
-    modal.style.display = "none";
-                     document.body.style.overflow = "auto";
-                     document.body.style.height = "auto";
-                     x.play();
-  }
-  btn2.onclick = function() {
-    modal.style.display = "none";
-    x.play();
-  }
-
-  
-
-function protectpasscode() {
-               const result = document.getElementById("tutorial").value;
-               let space = '';
-               if (result == space) {
-                  alert("Type passcode")
-               } else {
-                     modal.style.display = "none";
-                     document.body.style.overflow = "auto";
-                     document.body.style.height = "auto";
-                     x.play();
-                  
-               }
-            }
-            
-</script>
 
 </body>
 </html>
